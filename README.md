@@ -13,35 +13,35 @@ The ultimate goal of this project is to understand what factors affect the popul
 
 To carry out this project, you will have to adopt different levels of analysis. Your boss gave you a list of examples of questions that would be interesting:
 
-Analysis at the "macro" level
+- Analysis at the "macro" level
 
-Which publisher has released the most games on Steam?
+  - Which publisher has released the most games on Steam?
+  
+  - What are the best rated games?
+  
+  - Are there years with more releases? Were there more or fewer game releases during the Covid, for example?
+  
+  - How are the prizes distributed? Are there many games with a discount?
+  
+  - What are the most represented languages?
+  
+  - Are there many games prohibited for children under 16/18?
 
-What are the best rated games?
+- Genres analysis
 
-Are there years with more releases? Were there more or fewer game releases during the Covid, for example?
+  - What are the most represented genres?
+  
+  - Are there any genres that have a better positive/negative review ratio?
+  
+  - Do some publishers have favorite genres?
+  
+  - What are the most lucrative genres?
 
-How are the prizes distributed? Are there many games with a discount?
+- Platform analysis
 
-What are the most represented languages?
-
-Are there many games prohibited for children under 16/18?
-
-Genres analysis
-
-What are the most represented genres?
-
-Are there any genres that have a better positive/negative review ratio?
-
-Do some publishers have favorite genres?
-
-What are the most lucrative genres?
-
-Platform analysis
-
-Are most games available on Windows/Mac/Linux instead?
-
-Do certain genres tend to be preferentially available on certain platforms?
+  - Are most games available on Windows/Mac/Linux instead?
+  
+  - Do certain genres tend to be preferentially available on certain platforms?
 
 You're free to follow these guidelines, or to choose a different angle of analysis, as long as your analysis reveals relevant and useful information. 🤓
 
@@ -62,6 +62,7 @@ There are some text and date fields in this dataset: Pyspark offers utilitary fu
 You can use agregate functions and groupBy to conduct segmented analysis.
 
 ## Deliverable 📬
+
 To complete this project, you should deliver:
 
 One or several notebooks including data manipulation with PySpark and data visualization with Databrick's dashboarding tool.
